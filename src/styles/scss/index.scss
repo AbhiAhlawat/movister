@@ -1,0 +1,67 @@
+@import 'config';
+@import 'langselect';
+@import 'form';
+@import 'header';
+@import 'animationcard';
+@import 'faq';
+@import 'main';
+@import 'footer';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: $bg-color;
+  color: $fg-color-primary;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 3.125rem;
+}
+h2 {
+  font-size: 1.625rem;
+}
+h3 {
+  font-size: 1.2rem;
+}
+select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  color: $fg-color-primary;
+  padding: 0 1em 0 0;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+}
+.red-btn {
+  background-color: $netflix-color;
+  color: $fg-color-primary;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: $max-mobile-width) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  h2 {
+    font-size: 1.125rem;
+  }
+  h3 {
+    font-size: 0.9rem;
+  }
+}
