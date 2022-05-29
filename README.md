@@ -1,6 +1,6 @@
 # MS-MOVREC
 
-This is a Movie Recommedation system that recommends the users Movies and TV shows on the basis of different recommendation techniques.
+This is a Movie Recommendation system that recommends the users Movies and TV shows on the basis of different recommendation techniques.
 
 The different recommendation techniques includes:
 
