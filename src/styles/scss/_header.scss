@@ -1,0 +1,113 @@
+.header-container {
+  width: 100%;
+  height: 105vh;
+  background: url(../../assets/background.jpg) no-repeat center center/cover;
+}
+.header-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 105vh;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4);
+  border-bottom: 8px solid #222;
+  box-shadow: inset 0 70px 250px #000, inset -0 -70px 250px #000;
+}
+header,
+.showcase-wrapper {
+  position: relative;
+  z-index: 2;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 28px;
+  margin: 0 3.5rem;
+
+  div {
+    display: flex;
+  }
+}
+.netflix-logo {
+  height: 2.25rem;
+  width: 8.375rem;
+}
+.signin-btn {
+  padding: 7px 17px;
+  line-height: 1.4;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+.showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 150px 0;
+}
+.showcase-title {
+  margin-bottom: 1.2rem;
+  max-width: 600px;
+}
+.showcase-sub-title {
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width: $max-tablet-width) {
+  .header-container::after {
+    box-shadow: inset 0 40px 100px #000, inset -0 -40px 100px #000;
+  }
+  .netflix-logo {
+    height: 32px;
+    width: 108px;
+  }
+  .showcase {
+    padding: 15% 40px;
+  }
+}
+
+@media screen and (max-width: $max-mobile-width) {
+  .header-container {
+    max-height: 80vh;
+  }
+  .header-container::after {
+    height: 80vh;
+    border-bottom: 8px solid #222;
+  }
+  header {
+    padding-top: 25px;
+    margin: 0 1.4rem;
+    align-items: center;
+
+    div {
+      align-items: center;
+    }
+  }
+  .netflix-logo {
+    height: 24px;
+    width: 89px;
+  }
+  .signin-btn {
+    padding: 2px 5px;
+    margin-left: 0.3rem;
+  }
+  .showcase-wrapper {
+    border: none;
+  }
+  .showcase {
+    padding: 75px 0;
+  }
+  .showcase-title {
+    margin-bottom: 1rem;
+  }
+  .showcase-sub-title {
+    margin-bottom: 1rem;
+  }
+}
