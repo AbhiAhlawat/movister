@@ -1,6 +1,6 @@
 # MS-MOVREC
 
-This is a Movie Recommendation system that recommends the users Movies and TV shows on the basis of different recommendation techniques.
+This is a Movie Recommedation system that recommends the users Movies and TV shows on the basis of different recommendation techniques.
 
 The different recommendation techniques includes:
 
@@ -41,8 +41,6 @@ In the Collaboration based recommendation system the recommendation are made on 
 10. Displays the Cast of the specific movie.
 11. Videos related to the specific movie from Youtube.
 12. Recommendations for the specific movie on the basis of Overview, Cast and Genre.
-
-Watch Demo Video [here](https://www.youtube.com/watch?v=B_FPmJBLVVk).
 
 [(Back to top)](#table-of-contents)
 
@@ -140,7 +138,7 @@ The web application will work on mobile devices but isn't made that responsive t
 
 # Try The Web Application 
 
-Try the MS-MOVREC Web App [here](https://ms-movrec-abhiahlawat.vercel.app/).
+Try the MS-MOVREC Web App [here]().
 Please give it a little time to load.
 
 [(Back to top)](#table-of-contents)

@@ -26,11 +26,11 @@ const FAQ = () => {
       <h1 className="faq-title">Frequently Asked Questions</h1>
       <div className="qna">
         <button onClick={(e) => handleClick(e)} className="accordion">
-          What is MS-MOVREC?
+          What is MOVISTER?
         </button>
         <div className="panel">
           <p>
-            MS-MOVREC is a Recommendation website that offers a wide variety of
+            MOVISTER is a Recommendation website that offers a wide variety of
             award-winning TV shows, movies, anime, documentaries and more – on
             thousands of internet-connected devices.
             <br />
@@ -41,11 +41,11 @@ const FAQ = () => {
           </p>
         </div>
         <button onClick={(e) => handleClick(e)} className="accordion">
-          How much does MS-MOVREC cost?
+          How much does MOVISTER cost?
         </button>
         <div className="panel">
           <p>
-            Explore MS-MOVREC on your smartphone, tablet, Smart TV, laptop, or
+            Explore MOVISTER on your smartphone, tablet, Smart TV, laptop, or
             streaming device, without any cost. No extra costs, no contracts.
           </p>
         </div>
@@ -55,21 +55,20 @@ const FAQ = () => {
         <div className="panel">
           <p>
             Watch anywhere, anytime, on an unlimited number of devices. Click
-            <a href="https://ms-movrec-abhiahlawat.vercel.app/"> here </a>  
-            to watch instantly on the
-            web  from your personal computer or on any
+            <a href="https://ms-movrec-abhiahlawat.vercel.app/"> here </a>
+            to watch instantly on the web from your personal computer or on any
             internet-connected device, including smart TVs, smartphones,
             tablets, streaming media players and game consoles.
             <br />
-          </p>  
+          </p>
         </div>
         <button onClick={(e) => handleClick(e)} className="accordion">
-          What can I watch on MS-MOVREC?
+          What can I watch on MOVISTER?
         </button>
         <div className="panel">
           <p>
-            MS-MOVREC has an extensive library of feature films, documentaries,
-            TV shows, anime, award-winning MS-MOVREC originals, and more. Watch
+            MOVISTER has an extensive library of feature films, documentaries,
+            TV shows, anime, award-winning MOVISTER originals, and more. Watch
             as much as you want, anytime you want.
           </p>
         </div>
