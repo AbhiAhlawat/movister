@@ -1,4 +1,4 @@
-# MS-MOVREC
+# MOVISTER
 
 This is a Movie Recommedation system that recommends the users Movies and TV shows on the basis of different recommendation techniques.
 
@@ -96,7 +96,7 @@ After exploring various software development techniques, I understood how a mode
 
 As this wasn't a team project, I could not assign different tasks to different people and form a sprint out of it. Therefore I divided myself into five different people - one who will research, one who will design, one who will develop the frontend of the web application, one who will develop the backend of the web application and finally the one who will fix bugs. This division helped me to get into a zone and focus on a particular functionality whenever I was working on the project. 
 
-This disciplined process upon MS-MOVREC development gave me the following benefits: 
+This disciplined process upon MOVISTER development gave me the following benefits: 
 - It made my development process predicatable and more efficient. 
 - It made my development process easy to handle, flexible and allowed more room to adjust new functionalities. 
 
@@ -138,7 +138,7 @@ The web application will work on mobile devices but isn't made that responsive t
 
 # Try The Web Application 
 
-Try the MS-MOVREC Web App [here]().
+Try the MOVISTER Web App [here]().
 Please give it a little time to load.
 
 [(Back to top)](#table-of-contents)
